@@ -1,0 +1,13 @@
+function submitReview() {
+  // Get values from the form
+  var userName = document.getElementById("userName").value;
+  var userRating = document.getElementById("userRating").value;
+  var userReview = document.getElementById("userReview").value;
+
+  // Display the review (you can customize this part based on your backend logic)
+  alert("Review submitted!\n\nName: " + userName + "\nRating: " + userRating + " stars\nReview: " + userReview);
+
+  // You may want to send this data to the server for storage or further processing
+  // Example: Send data using AJAX to a server endpoint
+  // For simplicity, this example doesn't include the AJAX part.
+}
